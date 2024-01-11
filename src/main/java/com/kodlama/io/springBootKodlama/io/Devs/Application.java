@@ -14,17 +14,17 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 		//ProgrammingLanguageService programmingLanguageService = new ProgrammingLanguageManager(new InMemoryProgrammingLanguageRepository());
 
-		ProgrammingLanguageService programmingLanguageService=new ProgrammingLanguageManager(new InMemoryProgrammingLanguageRepository());
+//		ProgrammingLanguageService programmingLanguageService=new ProgrammingLanguageManager(new InMemoryProgrammingLanguageRepository());
 
 		//System.out.println(programmingLanguageService.getId(1).getName());
 		//programmingLanguageService.add(new ProgramingLanguage(9,"rust"));
 		//programmingLanguageService.update(new ProgramingLanguage(8,"DARTTTTT"),5);
 		//programmingLanguageService.getId(2);
-		programmingLanguageService.delete(0);
+		//programmingLanguageService.delete(5);
 
-		for (ProgramingLanguage programingLanguage:programmingLanguageService.getAll()){
-			System.out.println(programingLanguage.getId()+ "  "+ programingLanguage.getName());
-		}
+//		for (ProgramingLanguage programingLanguage:programmingLanguageService.getAll()){
+//			System.out.println(programingLanguage.getId()+ "  "+ programingLanguage.getName());
+//		}
 
 	}
 
